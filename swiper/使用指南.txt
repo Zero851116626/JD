@@ -1,0 +1,127 @@
+<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">slide1</div>
+			<div class="swiper-slide">slide2</div>
+			<div class="swiper-slide" data-swiper-autoplay="3000">slide3</div>
+			<!-- 单独在某个slide当中的停留时间-->	
+			<div class="swiper-slide">slide4</div>
+			<div class="swiper-slide">slide5</div>
+			<div class="swiper-slide">slide6</div>
+		</div>
+		
+		<!-- 分页器可以写在container外面
+		类型:字符串(名字) 或者html元素 默认:null
+		-->
+		<div class="swiper-pagination"></div>
+		
+		<!-- 前进后退按钮 -->
+		<div class="swiper-button-prev swiper-button-white"></div>
+		<div class="swiper-button-next swiper-button-black"></div>
+	</div>
+	
+	<script src="swiper/swiper.min.js"></script>
+	
+	<script>
+		//初始化 默认自适应
+		var myswiper = new Swiper('.swiper-container',{
+			autoplay:2000,//逗号结尾
+			/*自动切换的时间间隔(单位ms),不写不自动切换
+			类型:数字 默认是0
+			*/
+
+			initialSlide:3,
+			/*
+				设定初始化时的slide索引(默认显示第几张)
+				类型:数字   
+				索引从0开始
+			*/
+
+			//direction:'vertical',
+			/*
+			滑动的方向 可以是水平,垂直
+			可选值horizontal,vertical
+			*/
+			
+			speed:1000,
+			/*
+				滑动速度,自动滑动开始到结束的时间(ms)
+				类型:数字    默认:300
+				配合autoplay
+			*/
+
+			autoplayDisabledOninteraction:false,
+			/*
+			用户操作swiper,是否禁止autoplay
+			操作:触碰 拖动 点击 (分页)
+			默认是true  可选的值false
+			*/
+
+			autoplayStopOnLast:true,
+			/*
+				切换到最后一个slide停止自动切换
+				ps:loop时无效
+				默认:false不停
+			*/
+
+			grabCursor:true,
+			/*
+				鼠标指针形状(鼠标覆盖的时候是手,拖动的时候是抓手)
+				可选值:true false
+				默认:flase没有抓手
+			
+			*/
+
+			freeMode:true,
+			/*
+				滑动距离:
+				可选值:true false
+				默认:false普通模式:滑动一格,贴合wrapper
+				true为free模式,惯性滑动不贴和
+			*/
+			
+
+			//slidesPerView:6,
+			//centeredSlides:true,
+			/*
+				slides grid网格布局
+				可选值:true(居中) false(居左)
+			*/
+
+			effect:'cube',
+			/*
+				默认:slide
+
+				取值:fade(淡入)  
+				cube(方块)
+				coverflow(3d流)
+				flip(翻转)
+			*/
+			
+
+			//分页器
+			pagination:'.swiper-pagination',
+
+
+			prevButton:'.swiper-button-prev',
+			nextButton:'.swiper-buuton-next',
+
+			//loop:true,
+			/*
+			swiper是循环的 
+			默认:false
+			可选:true 
+			*/
+			//loop和free模式一起使用 会出现抖动
+
+
+			/*命名空间
+			var myswiper = new Swiper('.swiper-container',{
+				wrapperClass:'my-wrapper',
+				slideClass:'my-slide',
+			})	
+			*/
+		})
+		//setInterval("mySwiper.slidePrev()",2000);
+	</script>
+ </body>
+</html>

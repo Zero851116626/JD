@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* 还没逛够样式 */
+.haimeiguanggou li{
+    float:left;
+    width:230px;
+    height:305px;
+    margin-bottom:10px;
+    background-color: #fff;
+}
+.haimeiguanggou li:not(:nth-child(5n)){
+    margin-right:10px;
+}
+/* usually代表一般样式
+special代表大图样式 */
+
+.usually a{
+    position: relative;
+    display: inline-block;
+    width:230px;
+    height:305px;
+}
+.usually img{
+    width:170px;
+    height:170px;
+    margin:30px 30px 20px 30px;
+}
+.usually p{
+    overflow: hidden;
+    font-size: 14px;
+    width:198px;
+    height:36px;
+    line-height:18px;
+    margin:0px 16px 10px 16px;
+}
+.usually span{
+    display: block;
+    font-size: 12px;
+    width:230px;
+    color:#e33333;
+    text-align: center;
+}
+.special img{
+    float: left;
+    width:230px;
+    height:305px;
+    margin:0px;
+}
+.usually a:hover .findmore{
+    display: block;
+    background-color: rgba(255, 255, 255,0.8);
+}
+.usually a:hover :after{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+}
+.usually .findmore{
+    display: none;
+    position: absolute;
+    left:0px;
+    bottom:0px;
+    width:230px;
+    height:100px;
+}
+.usually .findmore span{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    color:#FFF;
+    z-index: 2;
+}
+.usually .findmore:after{
+    position: absolute;
+    content: "";
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    width:0px;
+    height:0px;
+    border-radius:50%;
+    background-color: rgba(34, 34, 34, 0.85);
+}

@@ -1,0 +1,217 @@
+@charset "utf-8";
+
+.bottom-border{
+    border-top:1px solid #e1e1e1;
+}
+.duokuaihaosheng li{
+    float:left;
+    width:260px;
+    height:55px;
+    padding-top:25px;
+    padding-left:37px;
+}
+.duokuaihaosheng div{
+    display: inline-block;
+    width:36px;
+    height:42px;
+    vertical-align: middle;
+}
+.duokuaihaosheng .duo div{
+    background:url("../images/bottom/sprite.footer.png") no-repeat 0px -192px;
+}
+.duokuaihaosheng .kuai div{
+    background:url("../images/bottom/sprite.footer.png") no-repeat -41px -192px;
+}
+.duokuaihaosheng .hao div{
+    background:url("../images/bottom/sprite.footer.png") no-repeat -82px -192px;
+}
+.duokuaihaosheng .sheng div{
+    background:url("../images/bottom/sprite.footer.png") no-repeat -123px -192px;
+}
+.duokuaihaosheng p{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 18px;
+    color:#444;
+    margin-left:3px;
+
+    height:42px;
+    line-height: 42px;
+    vertical-align: middle;
+}
+.help{
+    height:160px;
+    padding:20px 0px;
+    border-bottom:1px solid #e1e1e1;
+}
+.help dl{
+    float:left;
+    width:198px;
+    height:22px;
+}
+.help dt{
+    float:left;
+    width:198px;
+    font-size: 14px;
+    font-weight: 600;
+    height:22px;
+    margin-bottom:5px;
+    line-height:22px;
+}
+.help dd{
+    float:left;
+    width:198px;
+    font-size: 12px;
+    height:22px;
+    line-height:22px;
+}
+.help a{
+    color:#666;
+}
+.help  a:hover{
+    color:#F10215;
+}
+.sale-cover{
+    float:left;
+    width:200px;
+    height:150px;
+    background: url("../images/bottom/sprite.footer.png") no-repeat 0px 0px;
+}
+.sale-cover h4{
+    height:22px;
+    line-height:22px;
+    font-size: 14px;
+    text-align: center;
+}
+.sale-cover p{
+    width:180px;
+    height:54px;
+    line-height:18px;
+    margin:5px auto 0px;
+    font-size: 12px;
+    color:#666;
+}
+.sale-cover a{
+    display: block;
+    text-align: right;
+    font-size: 12px;
+}
+.links{
+    width:1145px;
+    height:18px;
+    line-height: 18px;
+    padding-left:45px;
+}
+.links a{
+    float: left;
+    height:18px;
+    font-size: 12px;
+    color:#666;
+    padding:0px 10px;
+}
+.links .list{
+    float:left;
+    width:1px;
+    height:12px;
+    margin-top:3px;
+    border-left:1px solid #e1e1e1;
+}
+.links a:hover{
+    color:#c81623;
+}
+.cert{
+    font-size: 12px;
+    height:88px;
+    line-height:22px;
+    text-align: center;
+    color:#999;
+    margin-top:10px;
+}
+.cert ul{
+    width:745px;
+    height:22px;
+    padding:0px 265px;
+}
+.cert a{
+    vertical-align: middle;
+    color:#999;
+}
+.cert a:hover{
+    color:#c81623;
+}
+
+
+.cert li{
+    float:left;
+    height:22px;
+    line-height:22px;
+    padding:0px 10px;
+    border-right:1px solid #999;
+}
+.cert li:nth-child(5){
+    border:0px;
+}
+.cert .flag a{
+    margin:0px ;
+    padding:0px;
+}
+.cert .flag i{
+    float:left;
+    width:15px;
+    height:12px;
+    margin-top:6px;
+    margin-right:10px;
+}
+.cert .flag span{
+    display: inline-block;
+    height:22px;
+    line-height: 22px;
+    padding:0px;
+}
+.jdfollow  span{
+    display: inline-block;
+    border:0px;
+}
+.cert span{
+    display: inline-block;
+    padding:0px 10px;
+    border-right:1px solid #999;
+}
+.cert a{
+    display: inline-block;
+    padding:0px 10px;
+    border-right:1px solid #999;
+}
+.cert div a:last-child{
+    border:0px;
+}
+.cert div span:last-child{
+    border:0px;
+}
+.auth{
+    width:875px;
+    height:36px;
+    margin:35px auto;
+    padding-left: 315px;
+}
+.auth div{
+    float:left;
+    width:103px;
+    height:32px;
+    margin:0px 3px;
+}
+.pic1{
+    background: url("../images/bottom/sprite.footer.png") no-repeat -200px -111px;
+}
+.pic2{
+    background: url("../images/bottom/sprite.footer.png") no-repeat -200px -73px;
+}
+.pic3{
+    background: url("../images/bottom/sprite.footer.png") no-repeat -200px -36px;
+}
+.pic4{
+    background: url("../images/bottom/sprite.footer.png") no-repeat -200px 0px;
+}
+.pic5{
+    background: url("../images/bottom/sprite.footer.png") no-repeat 5px -156px;
+}
